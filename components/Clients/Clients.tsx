@@ -1,0 +1,49 @@
+import Image from "next/image";
+import logoBuildkite from "../../imgs/buildkit.jpg";
+import logoEstimateone from "../../imgs/estimateone.jpg";
+import logoQantas from "../../imgs/qantas.jpg";
+import logoSilverstripe from "../../imgs/silverstripe.jpg";
+import logoWorksafe from "../../imgs/worksafe.jpg";
+
+export default function Clients() {
+  return (
+    <section>
+      <div className="container">
+        <h2>Clients worked with</h2>
+        <ul className="list-unstyled d-flex flex-wrap">
+          <li>
+            <Image
+              className="img-fluid"
+              src={logoBuildkite}
+              alt="buildkite logo"
+            />
+          </li>
+          <li>
+            <Image
+              className="img-fluid"
+              src={logoWorksafe}
+              alt="worksafe logo"
+            />
+          </li>
+          <li>
+            <Image className="img-fluid" src={logoQantas} alt="qantas logo" />
+          </li>
+          <li>
+            <Image
+              className="img-fluid"
+              src={logoEstimateone}
+              alt="estimateone logo"
+            />
+          </li>
+          <li>
+            <Image
+              className="img-fluid"
+              src={logoSilverstripe}
+              alt="sliverstrip logo"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+}
