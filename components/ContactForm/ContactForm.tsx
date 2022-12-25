@@ -11,7 +11,7 @@ export default function ContactForm() {
           <div className="row g-3">
             <h3>name *</h3>
             <div className="col-md-6 mb-3">
-              <label className="form-label" for="first_name">
+              <label className="form-label" htmlFor="first_name">
                 first name *
               </label>
               <input
@@ -22,7 +22,7 @@ export default function ContactForm() {
               />
             </div>
             <div className="col-md-6 mb-3">
-              <label className="form-label" for="last_name">
+              <label className="form-label" htmlFor="last_name">
                 last name *
               </label>
               <input
@@ -33,7 +33,7 @@ export default function ContactForm() {
               />
             </div>
             <div className="col-12 mb-3">
-              <label className="form-label" for="email">
+              <label className="form-label" htmlFor="email">
                 email *
               </label>
               <input
@@ -44,7 +44,7 @@ export default function ContactForm() {
               />
             </div>
             <div className="col-12 mb-3">
-              <label className="form-label" for="subject">
+              <label className="form-label" htmlFor="subject">
                 subject *
               </label>
               <input
@@ -55,7 +55,7 @@ export default function ContactForm() {
               />
             </div>
             <div className="col-12 mb-3">
-              <label className="form-label" for="message">
+              <label className="form-label" htmlFor="message">
                 message *
               </label>
               <textarea
