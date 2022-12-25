@@ -1,9 +1,9 @@
 import Image from "next/image";
-import logoBuildkite from "../../imgs/buildkit.jpg";
-import logoEstimateone from "../../imgs/estimateone.jpg";
-import logoQantas from "../../imgs/qantas.jpg";
-import logoSilverstripe from "../../imgs/silverstripe.jpg";
-import logoWorksafe from "../../imgs/worksafe.jpg";
+import logoBuildkite from "../../public/imgs/buildkit.jpg";
+import logoEstimateone from "../../public/imgs/estimateone.jpg";
+import logoQantas from "../../public/imgs/qantas.jpg";
+import logoSilverstripe from "../../public/imgs/silverstripe.jpg";
+import logoWorksafe from "../../public/imgs/worksafe.jpg";
 
 export default function Clients() {
   return (

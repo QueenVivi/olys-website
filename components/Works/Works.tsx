@@ -1,8 +1,8 @@
 import Image from "next/image";
-import logoBuildkite from "../../imgs/buildkit.jpg";
-import logoEstimateone from "../../imgs/estimateone.jpg";
-import logoQantas from "../../imgs/qantas.jpg";
-import logoWorksafe from "../../imgs/worksafe.jpg";
+import logoBuildkite from "../../public/imgs/buildkit.jpg";
+import logoEstimateone from "../../public/imgs/estimateone.jpg";
+import logoQantas from "../../public/imgs/qantas.jpg";
+import logoWorksafe from "../../public/imgs/worksafe.jpg";
 
 export default function Works() {
   return (
@@ -15,6 +15,7 @@ export default function Works() {
               <Image
                 src={logoBuildkite}
                 alt="logo of the tech company Buildkit"
+                className="img-fluid"
               />
               <div className="card-body">
                 <h3>Improve how we navigate</h3>
@@ -26,6 +27,7 @@ export default function Works() {
               <Image
                 src={logoWorksafe}
                 alt="logo of the tech company Worksafe"
+                className="img-fluid"
               />
               <div className="card-body">
                 <h3>Improve how we navigate</h3>
@@ -34,7 +36,11 @@ export default function Works() {
           </div>
           <div className="col">
             <div className="card">
-              <Image src={logoQantas} alt="logo of Qantas" />
+              <Image
+                src={logoQantas}
+                alt="logo of Qantas"
+                className="img-fluid"
+              />
               <div className="card-body">
                 <h3>Improve how we navigate</h3>
               </div>
@@ -45,6 +51,7 @@ export default function Works() {
               <Image
                 src={logoEstimateone}
                 alt="logo of the tech company Estimate One"
+                className="img-fluid"
               />
               <div className="card-body">
                 <h3>Improve how we navigate</h3>
