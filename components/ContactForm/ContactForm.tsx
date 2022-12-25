@@ -16,7 +16,7 @@ export default function ContactForm() {
               </label>
               <input
                 className="form-control"
-                id="fist_name"
+                id="first_name"
                 type="text"
                 required
               />
