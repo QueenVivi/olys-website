@@ -8,7 +8,13 @@ import ContactForm from "../components/ContactForm";
 export default function Home() {
   return (
     <Layout>
-      <Hero />
+      <Hero
+        eyebrow="what"
+        heading="i do"
+        message="ux, ui, visual, research, strategy, education, design, branding, workshops and more"
+        linkText="view full cv"
+        linkUrl="https://linkedin.com/in/olysu"
+      />
       <Works />
       <Quotes />
       <Clients />
