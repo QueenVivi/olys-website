@@ -12,6 +12,9 @@ export default function Work({
   future,
   images,
 }) {
+  const firstImage = images[0];
+  const secondImage = images[1];
+  const otherImages = images.slice(2);
   return (
     <Layout>
       <div className="container">
@@ -22,17 +25,37 @@ export default function Work({
             heading={challenge.title}
             message={challenge.content}
           />
-          <h2>{scope.title}</h2>
-          <p>{scope.content}</p>
-          <h2>{problem.title}</h2>
-          <p>{problem.content}</p>
-          <h2>{process.title}</h2>
-          <p>{process.content}</p>
-          <h2>{outcomes.title}</h2>
-          <p>{outcomes.content}</p>
-          <h2>{future.title}</h2>
-          <p>{future.content}</p>
-          {images.map((image, i) => {
+          <div className="container">
+            <div className="row">
+              <div className="col-6">
+                <h2>{scope.title}</h2>
+                <p>{scope.content}</p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-6">
+                <h2>{problem.title}</h2>
+                <p>{problem.content}</p>
+                <h2>{process.title}</h2>
+                <p>{process.content}</p>
+              </div>
+              <div className="col-6">
+                <img src={firstImage.src} alt={firstImage.alt} />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-6">
+                <img src={secondImage.src} alt={secondImage.alt} />
+              </div>
+              <div className="col-6">
+                <h2>{outcomes.title}</h2>
+                <p>{outcomes.content}</p>
+                <h2>{future.title}</h2>
+                <p>{future.content}</p>
+              </div>
+            </div>
+          </div>
+          {otherImages.map((image, i) => {
             return (
               <>
                 <img key={i} src={image.src} alt={image.alt} />
