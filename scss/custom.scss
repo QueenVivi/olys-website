@@ -4,9 +4,13 @@
 // scss-docs-start import-stack
 // Configuration
 @import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
 
 // default variable overrides
+$headings-font-family: "Hind", sans-serif;
+
+@import "../node_modules/bootstrap/scss/variables";
+
+// dark mode variable overrides
 $body-bg-dark: $black;
 
 @import "../node_modules/bootstrap/scss/variables-dark";

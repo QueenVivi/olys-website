@@ -8,6 +8,10 @@ export default function Layout({ children }) {
       <Head>
         <title>Oly Su's Website</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Hind:wght@300;700&display=swap');
+        </style>
       </Head>
       <Header />
       <main>{children}</main>
