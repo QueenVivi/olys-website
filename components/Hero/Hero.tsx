@@ -5,7 +5,7 @@ export default function Hero(props) {
     <section>
       <div className="container py-8 py-sm-10">
         <Eyebrow eyebrow={props.eyebrow} heading={props.heading} />
-        <p className="display-6 lh-lg text-white">{props.message}</p>
+        <p className="display-6">{props.message}</p>
         {props.linkUrl && props.linkText ? (
           <p>
             <a href={props.linkUrl}>{props.linkText}</a>

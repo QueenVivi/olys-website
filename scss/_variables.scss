@@ -1,5 +1,6 @@
 // default variable overrides
 $headings-font-family: "Hind";
+$headings-line-height: 1.5;
 $headings-font-weight: 700;
 $h1-font-size: 2rem;
 $h2-font-size: 1.5rem;
@@ -27,3 +28,4 @@ $spacers: (
 
 // dark mode variable overrides
 $body-bg-dark: #000;
+$body-color-dark: #fff;
