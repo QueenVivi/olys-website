@@ -4,7 +4,7 @@ export default function Hero(props) {
       <div className="container">
         <h1>{props.eyebrow}</h1>
         <h2>{props.heading}</h2>
-        <p>{props.message}</p>
+        <p className="display-6">{props.message}</p>
         {props.linkUrl && props.linkText ? (
           <p>
             <a href={props.linkUrl}>{props.linkText}</a>

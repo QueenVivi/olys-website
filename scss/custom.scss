@@ -1,3 +1,4 @@
+@import "./variables";
 @import "../node_modules/bootstrap/scss/mixins/banner";
 @include bsBanner("");
 
@@ -5,13 +6,7 @@
 // Configuration
 @import "../node_modules/bootstrap/scss/functions";
 
-// default variable overrides
-$headings-font-family: "Hind", sans-serif;
-
 @import "../node_modules/bootstrap/scss/variables";
-
-// dark mode variable overrides
-$body-bg-dark: $black;
 
 @import "../node_modules/bootstrap/scss/variables-dark";
 @import "../node_modules/bootstrap/scss/maps";

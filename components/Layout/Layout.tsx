@@ -11,6 +11,8 @@ export default function Layout({ children }) {
         <style>
           @import
           url('https://fonts.googleapis.com/css2?family=Hind:wght@300;700&display=swap');
+          @import
+          url('https://fonts.googleapis.com/css2?family=Hind:wght@300;700&family=Libre+Baskerville&display=swap');
         </style>
       </Head>
       <Header />
