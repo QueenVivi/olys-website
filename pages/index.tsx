@@ -16,7 +16,16 @@ export default function Home() {
         linkUrl="https://linkedin.com/in/olysu"
       />
       <Works />
-      <Quotes />
+      <Hero
+        eyebrow="people"
+        heading="say"
+        message="…Oly is a true consummate professional and a seriously black-belt
+            product designer. I had the absolute pleasure of managing Oly for
+            over a year and I can wholeheartedly say that his departure has been
+            a huge loss to our organisation…"
+        linkText="Cheb D"
+        linkUrl="#"
+      />
       <Clients />
       <ContactForm />
     </Layout>
