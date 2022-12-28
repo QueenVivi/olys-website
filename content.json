@@ -4,78 +4,71 @@
       "title": "Buildkite",
       "id": "buildkite",
       "challenge": {
-        "title": "increase donation",
-        "content": "jsdkfjsfjsjfs lkfjlskjflsjfls jflksfjlsjfjfskfjlaskfjl fjlajkfkalsjfklsj"
+        "title": "Documentation site",
+        "content": "Redesign Buildkite's Documentation site to improve its information architecture (IA) and better support engineers to integrate Buildkite's new features and products."
       },
       "scope": {
-        "title": "lkfjksjfsjfslfj",
-        "content": "jsdkfjsfjsjfs lkfjlskjflsjfls jflksfjl"
+        "title": "What I did",
+        "content": "<ul><li>Design the new IA, navigation and landing pages</li><li>Redesign homepage</li><li>Design and build GraphQL API spec docs</li><li>Rails development</li><li>Integrate tracking</li></ul>"
       },
       "problem": {
-        "title": "increase donation",
-        "content": "jsdkfjsfjsjfs lkfjlskjflsjfls jflksfjlsjfjfskfjlaskfjl fjlajkfkalsjfklsj"
+        "title": "To solve",
+        "content": "The <a href=\"https://www.buildkite.com/docs\" target=\"_blank\">documentation site</a> (Docs) is an important part of Buildkite to help engineers and engineering managers to get to know Buildkite's capabilities and integrate it into their DevOps infrastructure. However, Docs' IA doesn't support navigation for new products and features well, and we can improve the design make it easier for new customers to learn about the product."
       },
       "process": {
-        "title": "increase donation",
-        "content": "jsdkfjsfjsjfs lkfjlskjflsjfls jflksfjlsjfjfskfjlaskfjl fjlajkfkalsjfklsj"
+        "title": "To undertake",
+        "content": "<ol><li>1:1 with key stakeholders and team members to gathre problems, insights and ideas</li><li>Conduct landscape research in technical documentation from competitors and 'world-class' Docs for inspiration</li><li>Co-design, in both async and sync modes of collaboration, with team members across different timezone via Figma and GitHub</li><li>UI design with Figma and directly with code</li><li>Rails and JavaScript development</li><li>Look for future areas of improvement from tracking data</li></ol>"
       },
       "outcomes": {
-        "title": "increase donation",
-        "content": "jsdkfjsfjsjfs lkfjlskjflsjfls jflksfjlsjfjfskfjlaskfjl fjlajkfkalsjfklsj"
+        "title": "Delivered",
+        "content": "<ul><li>Easier navigation for customers through the re-designed IA and navigation structure</li><li>New IA supports future feature and product releases</li><li>Engineers can easily explore APIs and integrations, particularly Buildkite's GraphQL API</li><li>Added new data points, such as web analytics, which integrates with Buildkite's data and analytics stack</li></ul>"
       },
       "future": {
-        "title": "increase donation",
-        "content": "jsdkfjsfjsjfs lkfjlskjflsjfls jflksfjlsjfjfskfjlaskfjl fjlajkfkalsjfklsj"
+        "title": "What's next",
+        "content": "<ul><li>Expand the Docs' team's radius of impact to improve the overall onboarding CX design</li><li>Integrate Docs' tracking data to evaluate impact to activation and acquisition</li><li>Design and implement experiments in Docs and the Buildkite app to test different ways to improve customer engagement</li></ul>"
       },
       "images": [
         {
-          "src": "https://via.placeholder.com/500",
-          "alt": "jfskjfl sjfkla",
-          "caption": "fkjsf,ksjfkjsfk, kjflksjffakj",
-          "width": 500,
-          "height": 500
+          "src": "/imgs/buildkite-docs-old.png",
+          "alt": "Screenshot of Buildkite's old Docs homepage",
+          "caption": "Buildkite's old Docs homepage",
+          "width": 3024,
+          "height": 3024
         },
         {
-          "src": "https://via.placeholder.com/500",
-          "alt": "jfskjfl sjfkla",
-          "caption": "fkjsf,ksjfkjsfk, kjflksjffakj",
-          "width": 500,
-          "height": 500
+          "src": "/imgs/buildkite-docs-new.png",
+          "alt": "Screenshot of Buildkite's new Docs site, Test Analytics's landing page",
+          "caption": "Buildkite's new product, Test Analytics, viewed on a newly designed landing page featuring new navigation header and sidebar",
+          "width": 2970,
+          "height": 2970
         },
         {
-          "src": "https://via.placeholder.com/500",
-          "alt": "jfskjfl sjfkla",
-          "caption": "fkjsf,ksjfkjsfk, kjflksjffakj",
-          "width": 500,
-          "height": 500
-        },
-        {
-          "src": "https://via.placeholder.com/500",
-          "alt": "jfskjfl sjfkla",
-          "caption": "fkjsf,ksjfkjsfk, kjflksjffakj",
-          "width": 500,
-          "height": 500
+          "src": "/imgs/buildkite-docs-graphql.png",
+          "alt": "Screenshot of Buildkite Docs' GraphQL API schema spec docs for Agent",
+          "caption": "Engineers can now easily browse the GraphQL API schema. I designed and built the script that generates the entire schema pages",
+          "width": 3024,
+          "height": 1662
         }
       ]
     },
     {
-      "title": "Buildkite2",
-      "id": "buildkite-2",
+      "title": "WorkSafe Innovation Centre",
+      "id": "worksafe",
       "challenge": {
-        "title": "increase donation2",
-        "content": "2jsdkfjsfjsjfs lkfjlskjflsjfls jflksfjlsjfjfskfjlaskfjl fjlajkfkalsjfklsj"
+        "title": "Early support for injured workers",
+        "content": "Create opportunities to get in early to support workers to improve the return to work journey."
       },
       "scope": {
-        "title": "lkfjksjfsjfslfj",
-        "content": "jsdkfjsfjsjfs lkfjlskjflsjfls jflksfjl"
+        "title": "What I did",
+        "content": "<ul><li>Product discovery — problem-solution fit & product-market fit</li><li>Customer interview and research synthesis</li><li>UI design</li><li>Web app development<ul><li>Vue.js development</li><li>AWS Cloud configuration</li><li>Matomo tracking and configuration</li></ul></li></ul>"
       },
       "problem": {
-        "title": "increase donation",
-        "content": "jsdkfjsfjsjfs lkfjlskjflsjfls jflksfjlsjfjfskfjlaskfjl fjlajkfkalsjfklsj"
+        "title": "Sooner the better",
+        "content": "When a worker's injured and submits a WorkCover claim there are many things we could do to improve the injured worker's recovery. Research has shown that early contact from the employer can improve the return to work outcome by 15% — reducing the time they're away from work and likelihood to develop mental injury, as well as improve WorkCover's financial performance. However, employers lack awareness of the benefits of early contact and are unsure how to best support their workers. Secondly, a few days after the worker submits a WorkCover claim, the employer receives a barrage of documentation from the insurance provider. Employers are typically time-poor and the legal implication of not processing the claims properly is severe."
       },
       "process": {
-        "title": "increase donation",
-        "content": "jsdkfjsfjsjfs lkfjlskjflsjfls jflksfjlsjfjfskfjlaskfjl fjlajkfkalsjfklsj"
+        "title": "To undertake",
+        "content": "<p>I joined the team when the first Vue.js </p><ul><li></li></ul>"
       },
       "outcomes": {
         "title": "increase donation",
