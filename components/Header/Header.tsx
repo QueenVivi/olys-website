@@ -1,11 +1,13 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
     <header>
-      <nav className="navbar">
+      <nav className="navbar py-4 py-md-5">
         <div className="container">
-          <a className="navbar-brand" href="/">
-            Oly Su
-          </a>
+          <Link className="navbar-brand" href="/">
+            <span className="h1">Oly Su</span>
+          </Link>
         </div>
       </nav>
     </header>
