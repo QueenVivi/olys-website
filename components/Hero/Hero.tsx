@@ -1,9 +1,10 @@
+import Eyebrow from "../Eyebrow";
+
 export default function Hero(props) {
   return (
     <section>
-      <div className="container">
-        <h1>{props.eyebrow}</h1>
-        <h2>{props.heading}</h2>
+      <div className="container py-8 py-sm-10">
+        <Eyebrow eyebrow={props.eyebrow} heading={props.heading} />
         <p className="display-6">{props.message}</p>
         {props.linkUrl && props.linkText ? (
           <p>
