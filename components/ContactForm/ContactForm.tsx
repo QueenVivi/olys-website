@@ -1,8 +1,10 @@
+import Eyebrow from "../Eyebrow";
+
 export default function ContactForm() {
   return (
     <section>
       <div className="container">
-        <h2>Contact say hello</h2>
+        <Eyebrow eyebrow="contact" heading="say hello" />x
         <p>
           Have something you want to talk about? Need some design work done?
           Feel free to drop me a line and say hello!

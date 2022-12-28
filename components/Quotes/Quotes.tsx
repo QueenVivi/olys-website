@@ -1,8 +1,10 @@
+import Eyebrow from "../Eyebrow";
+
 export default function Quotes() {
   return (
     <section>
       <div className="container">
-        <h2>People say</h2>
+        <Eyebrow eyebrow="people" heading="say" />
         <blockquote className="blockquote">
           <p>
             Oly is a true consummate professional and a seriously black-belt
