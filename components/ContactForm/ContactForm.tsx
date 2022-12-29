@@ -4,7 +4,7 @@ export default function ContactForm() {
   return (
     <section>
       <div className="container">
-        <Eyebrow eyebrow="contact" heading="say hello" />x
+        <Eyebrow eyebrow="contact" heading="say hello" />
         <p>
           Have something you want to talk about? Need some design work done?
           Feel free to drop me a line and say hello!
