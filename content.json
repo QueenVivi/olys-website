@@ -1,4 +1,43 @@
 {
+  "index": {
+    "clients": {
+      "logos": [
+        {
+          "src": "/imgs/logo-buildkite-dark.svg",
+          "alt": "logo of buildkite"
+        },
+        {
+          "src": "/imgs/logo-cwp-dark.png",
+          "alt": "logo of cwp"
+        },
+        {
+          "src": "/imgs/logo-estimateone-dark.svg",
+          "alt": "logo of estimateone"
+        },
+        {
+          "src": "/imgs/logo-qantas-dark.svg",
+          "alt": "logo of qantas"
+        },
+        {
+          "src": "/imgs/logo-statsnz-dark.svg",
+          "alt": "logo of statsnz"
+        },
+        {
+          "src": "/imgs/logo-swinburne.svg",
+          "alt": "logo of swinburne"
+        },
+        {
+          "src": "/imgs/logo-westpacnz.svg",
+          "alt": "logo of westpac"
+        },
+        {
+          "src": "/imgs/logo-worksafe-dark.svg",
+          "alt": "logo of worksafe"
+        }
+      ]
+    }
+  },
+
   "works": [
     {
       "title": "Buildkite",
@@ -57,6 +96,7 @@
       "title": "WorkSafe Innovation Centre",
       "id": "worksafe",
       "logo": "/imgs/logo-worksafe-dark.svg",
+      "brandColor": "#fdcd59",
       "challenge": {
         "title": "Early support for injured workers",
         "content": "Create opportunities to get in early to support workers to improve the return to work journey."

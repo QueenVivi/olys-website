@@ -1,48 +1,29 @@
 import Image from "next/image";
-import logoBuildkite from "../../public/imgs/buildkit.jpg";
-import logoEstimateone from "../../public/imgs/estimateone.jpg";
-import logoQantas from "../../public/imgs/qantas.jpg";
-import logoSilverstripe from "../../public/imgs/silverstripe.jpg";
-import logoWorksafe from "../../public/imgs/worksafe.jpg";
+import Eyebrow from "../Eyebrow";
 
-export default function Clients() {
+export default function Clients(props) {
   return (
     <section>
-      <div className="container">
-        <h2>Clients worked with</h2>
-        <ul className="list-unstyled d-flex flex-wrap">
-          <li>
-            <Image
-              className="img-fluid"
-              src={logoBuildkite}
-              alt="buildkite logo"
-            />
-          </li>
-          <li>
-            <Image
-              className="img-fluid"
-              src={logoWorksafe}
-              alt="worksafe logo"
-            />
-          </li>
-          <li>
-            <Image className="img-fluid" src={logoQantas} alt="qantas logo" />
-          </li>
-          <li>
-            <Image
-              className="img-fluid"
-              src={logoEstimateone}
-              alt="estimateone logo"
-            />
-          </li>
-          <li>
-            <Image
-              className="img-fluid"
-              src={logoSilverstripe}
-              alt="sliverstrip logo"
-            />
-          </li>
-        </ul>
+      <div className="container mb-10">
+        <Eyebrow eyebrow="Clients" heading="worked with" />
+        <div className="row" style={{ gap: "40px 20px" }}>
+          {props.logosData.map((logo, i) => {
+            return (
+              <div
+                className="col-6 col-sm-3 col-md-2"
+                key={i}
+                style={{ position: "relative", height: "50px" }}
+              >
+                <Image
+                  src={logo.src}
+                  alt={logo.alt}
+                  fill
+                  style={{ objectFit: "contain" }}
+                />
+              </div>
+            );
+          })}
+        </div>
       </div>
     </section>
   );
