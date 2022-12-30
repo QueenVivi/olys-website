@@ -28,15 +28,15 @@ export default function Work({
           <div className="row">
             <div className="col-md-6">
               <h2>{scope.title}</h2>
-              <p>{scope.content}</p>
+              <div dangerouslySetInnerHTML={{ __html: scope.content }} />
             </div>
           </div>
           <div className="row">
             <div className="col-md-6">
               <h2>{problem.title}</h2>
-              <p>{problem.content}</p>
+              <div dangerouslySetInnerHTML={{ __html: problem.content }} />
               <h2>{process.title}</h2>
-              <p>{process.content}</p>
+              <div dangerouslySetInnerHTML={{ __html: process.content }} />
             </div>
             <div className="col-md-6">
               <img
@@ -56,9 +56,9 @@ export default function Work({
             </div>
             <div className="col-md-6">
               <h2>{outcomes.title}</h2>
-              <p>{outcomes.content}</p>
+              <div dangerouslySetInnerHTML={{ __html: outcomes.content }} />
               <h2>{future.title}</h2>
-              <p>{future.content}</p>
+              <div dangerouslySetInnerHTML={{ __html: future.content }} />
             </div>
           </div>
           {otherImages.map((image, i) => {
