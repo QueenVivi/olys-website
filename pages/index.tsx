@@ -1,11 +1,11 @@
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
-import Works from "../components/Works";
-import Quotes from "../components/Quotes";
+import WorkTiles from "../components/WorkTiles";
 import Clients from "../components/Clients";
 import ContactForm from "../components/ContactForm";
+import content from "../content.json";
 
-export default function Home() {
+export default function Home({ worksData }) {
   return (
     <Layout>
       <Hero
@@ -15,7 +15,7 @@ export default function Home() {
         linkText="view full cv"
         linkUrl="https://linkedin.com/in/olysu"
       />
-      <Works />
+      <WorkTiles worksData={worksData} />
       <Hero
         eyebrow="people"
         heading="say"
@@ -30,4 +30,12 @@ export default function Home() {
       <ContactForm />
     </Layout>
   );
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      worksData: content.works,
+    },
+  };
 }

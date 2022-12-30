@@ -1,0 +1,21 @@
+.WorkTile {
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.WorkTile__eyebrow {
+  bottom: 0;
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: 20px;
+}
+
+.WorkTile__image {
+  border: 40px solid transparent;
+  max-width: 100%;
+
+  @media (min-width: 768px) {
+    max-width: 250px;
+  }
+}

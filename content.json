@@ -3,6 +3,8 @@
     {
       "title": "Buildkite",
       "id": "buildkite",
+      "logo": "/imgs/logo-buildkite-dark.svg",
+      "brandColor": "#14CC80",
       "challenge": {
         "title": "Documentation site",
         "content": "Redesign Buildkite's Documentation site to improve its information architecture (IA) and better support engineers to integrate Buildkite's new features and products."
@@ -54,6 +56,7 @@
     {
       "title": "WorkSafe Innovation Centre",
       "id": "worksafe",
+      "logo": "/imgs/logo-worksafe-dark.svg",
       "challenge": {
         "title": "Early support for injured workers",
         "content": "Create opportunities to get in early to support workers to improve the return to work journey."
