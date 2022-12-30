@@ -4,6 +4,7 @@
       "title": "Buildkite",
       "id": "buildkite",
       "logo": "/imgs/logo-buildkite-dark.svg",
+      "brandColor": "#14CC80",
       "challenge": {
         "title": "Documentation site",
         "content": "Redesign Buildkite's Documentation site to improve its information architecture (IA) and better support engineers to integrate Buildkite's new features and products."

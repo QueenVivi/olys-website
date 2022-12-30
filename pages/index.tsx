@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
-import Works from "../components/Works";
+import WorkTiles from "../components/WorkTiles";
 import Clients from "../components/Clients";
 import ContactForm from "../components/ContactForm";
 import content from "../content.json";
@@ -15,7 +15,7 @@ export default function Home({ worksData }) {
         linkText="view full cv"
         linkUrl="https://linkedin.com/in/olysu"
       />
-      <Works worksData={worksData} />
+      <WorkTiles worksData={worksData} />
       <Hero
         eyebrow="people"
         heading="say"

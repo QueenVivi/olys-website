@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Eyebrow from "../Eyebrow";
+import styles from "./WorkTiles.module.scss";
 
-export default function Works(props) {
+export default function WorkTiles(props) {
   return (
     <section>
       <div className="container">
@@ -10,14 +11,20 @@ export default function Works(props) {
           {props.worksData.map((work, i) => {
             return (
               <div className="col" key={i}>
-                <div className="card">
+                <div
+                  className={styles.WorkTile}
+                  style={{
+                    backgroundColor: work.brandColor,
+                  }}
+                >
                   <Image
+                    className={styles.WorkTile__image}
                     src={work.logo}
                     alt={work.title}
-                    width="300"
-                    height="50"
+                    fill
                   />
-                  <div className="card-body">
+
+                  <div className={styles.WorkTile__eyebrow}>
                     <Eyebrow eyebrow={work.challenge.title} />
                   </div>
                 </div>
