@@ -5,7 +5,7 @@ import Clients from "../components/Clients";
 import ContactForm from "../components/ContactForm";
 import content from "../content.json";
 
-export default function Home({ worksData }) {
+export default function Home({ worksData, logosData }) {
   return (
     <Layout>
       <Hero
@@ -26,7 +26,7 @@ export default function Home({ worksData }) {
         linkText="Cheb D"
         linkUrl="#"
       />
-      <Clients />
+      <Clients logosData={logosData} />
       <ContactForm />
     </Layout>
   );
@@ -36,6 +36,7 @@ export async function getStaticProps() {
   return {
     props: {
       worksData: content.works,
+      logosData: content.index.clients.logos,
     },
   };
 }
