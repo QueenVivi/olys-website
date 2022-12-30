@@ -25,13 +25,13 @@ export default function Work({
             heading={challenge.title}
             message={challenge.content}
           />
-          <div className="row">
+          <div className="row mb-6">
             <div className="col-md-6">
               <h2>{scope.title}</h2>
               <div dangerouslySetInnerHTML={{ __html: scope.content }} />
             </div>
           </div>
-          <div className="row">
+          <div className="row mb-6">
             <div className="col-md-6">
               <h2>{problem.title}</h2>
               <div dangerouslySetInnerHTML={{ __html: problem.content }} />
@@ -46,7 +46,7 @@ export default function Work({
               />
             </div>
           </div>
-          <div className="row d-flex">
+          <div className="row d-flex mb-6">
             <div className="col-md-6">
               <img
                 className="img-fluid"
