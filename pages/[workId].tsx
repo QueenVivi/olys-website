@@ -45,6 +45,7 @@ export default function Work({
                 src={firstImage.src}
                 alt={firstImage.alt}
               />
+              <p>{firstImage.caption}</p>
             </div>
           </div>
           <div className="row d-flex mb-6">
@@ -54,6 +55,7 @@ export default function Work({
                 src={secondImage.src}
                 alt={secondImage.alt}
               />
+              <p>{secondImage.caption}</p>
             </div>
             <div className="col-md-6">
               <Eyebrow eyebrow="outcomes" heading={outcomes.title} />
