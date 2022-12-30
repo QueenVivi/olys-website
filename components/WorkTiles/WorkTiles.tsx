@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import Eyebrow from "../Eyebrow";
 import styles from "./WorkTiles.module.scss";
@@ -15,23 +16,25 @@ export default function WorkTiles(props) {
 
             return (
               <div className="col" key={i}>
-                <div
-                  className={styles.WorkTile}
-                  style={{
-                    backgroundColor: work.brandColor,
-                  }}
-                >
-                  <Image
-                    className={styles.WorkTile__image}
-                    src={work.logo}
-                    alt={work.title}
-                    fill
-                  />
+                <Link href={work.id}>
+                  <div
+                    className={styles.WorkTile}
+                    style={{
+                      backgroundColor: work.brandColor,
+                    }}
+                  >
+                    <Image
+                      className={styles.WorkTile__image}
+                      src={work.logo}
+                      alt={work.title}
+                      fill
+                    />
 
-                  <div className={styles.WorkTile__eyebrow}>
-                    <Eyebrow eyebrow={eyebrow} heading={heading} />
+                    <div className={styles.WorkTile__eyebrow}>
+                      <Eyebrow eyebrow={eyebrow} heading={heading} />
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
             );
           })}
