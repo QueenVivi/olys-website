@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
+import Eyebrow from "../components/Eyebrow";
 import content from "../content.json";
 
 export default function Work({
@@ -27,13 +28,13 @@ export default function Work({
           />
           <div className="row mb-6">
             <div className="col-md-6">
-              <h2>{scope.title}</h2>
+              <Eyebrow eyebrow="scope" heading={scope.title} />
               <div dangerouslySetInnerHTML={{ __html: scope.content }} />
             </div>
           </div>
           <div className="row mb-6">
             <div className="col-md-6">
-              <h2>{problem.title}</h2>
+              <Eyebrow eyebrow="problem" heading={problem.title} />
               <div dangerouslySetInnerHTML={{ __html: problem.content }} />
               <h2>{process.title}</h2>
               <div dangerouslySetInnerHTML={{ __html: process.content }} />
@@ -55,9 +56,9 @@ export default function Work({
               />
             </div>
             <div className="col-md-6">
-              <h2>{outcomes.title}</h2>
+              <Eyebrow eyebrow="outcomes" heading={outcomes.title} />
               <div dangerouslySetInnerHTML={{ __html: outcomes.content }} />
-              <h2>{future.title}</h2>
+              <Eyebrow eyebrow="future" heading={future.title} />
               <div dangerouslySetInnerHTML={{ __html: future.content }} />
             </div>
           </div>
