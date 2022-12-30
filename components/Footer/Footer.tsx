@@ -3,7 +3,7 @@ export default function Footer() {
   console.log(currentYear);
   return (
     <footer>
-      <div className="container">
+      <div className="container mb-6">
         <p>all works are copyright Oly Su {currentYear}</p>
       </div>
     </footer>
