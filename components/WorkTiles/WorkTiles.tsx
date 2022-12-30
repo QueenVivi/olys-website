@@ -9,6 +9,10 @@ export default function WorkTiles(props) {
         <Eyebrow eyebrow="Work" heading="I've done" />
         <div className="row row-cols-1 row-cols-md-2 g-4">
           {props.worksData.map((work, i) => {
+            const tagLineArr = work.challenge.title.split(" ");
+            const eyebrow = tagLineArr[0];
+            const heading = tagLineArr.slice(1).join(" ");
+
             return (
               <div className="col" key={i}>
                 <div
@@ -25,7 +29,7 @@ export default function WorkTiles(props) {
                   />
 
                   <div className={styles.WorkTile__eyebrow}>
-                    <Eyebrow eyebrow={work.challenge.title} />
+                    <Eyebrow eyebrow={eyebrow} heading={heading} />
                   </div>
                 </div>
               </div>
