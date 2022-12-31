@@ -6,13 +6,13 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Oly Su's Website</title>
+        <title>Oly Su&apos;s Website</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <style>
           @import
-          url('https://fonts.googleapis.com/css2?family=Hind:wght@300;700&display=swap');
+          url(&apos;https://fonts.googleapis.com/css2?family=Hind:wght@300;700&display=swap&apos;);
           @import
-          url('https://fonts.googleapis.com/css2?family=Hind:wght@300;700&family=Libre+Baskerville&display=swap');
+          url(&apos;https://fonts.googleapis.com/css2?family=Hind:wght@300;700&family=Libre+Baskerville&display=swap&apos;);
         </style>
       </Head>
       <Header />

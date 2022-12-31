@@ -27,7 +27,6 @@ export default function Home({ worksData, logosData }) {
         linkUrl="#"
       />
       <Clients logosData={logosData} />
-      <ContactForm />
     </Layout>
   );
 }
