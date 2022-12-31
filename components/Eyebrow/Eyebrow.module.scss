@@ -1,4 +1,5 @@
 .Eyebrow {
+  text-transform: lowercase;
   &::before {
     content: "| ";
   }

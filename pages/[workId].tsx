@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
+import Eyebrow from "../components/Eyebrow";
 import content from "../content.json";
 
 export default function Work({
@@ -25,18 +26,18 @@ export default function Work({
             heading={challenge.title}
             message={challenge.content}
           />
-          <div className="row">
+          <div className="row mb-6">
             <div className="col-md-6">
-              <h2>{scope.title}</h2>
-              <p>{scope.content}</p>
+              <Eyebrow eyebrow="scope" heading={scope.title} />
+              <div dangerouslySetInnerHTML={{ __html: scope.content }} />
             </div>
           </div>
-          <div className="row">
+          <div className="row mb-6">
             <div className="col-md-6">
-              <h2>{problem.title}</h2>
-              <p>{problem.content}</p>
-              <h2>{process.title}</h2>
-              <p>{process.content}</p>
+              <Eyebrow eyebrow="problem" heading={problem.title} />
+              <div dangerouslySetInnerHTML={{ __html: problem.content }} />
+              <Eyebrow eyebrow="process" heading={process.title} />
+              <div dangerouslySetInnerHTML={{ __html: process.content }} />
             </div>
             <div className="col-md-6">
               <img
@@ -44,21 +45,23 @@ export default function Work({
                 src={firstImage.src}
                 alt={firstImage.alt}
               />
+              <p>{firstImage.caption}</p>
             </div>
           </div>
-          <div className="row d-flex">
+          <div className="row d-flex mb-6">
             <div className="col-md-6">
               <img
                 className="img-fluid"
                 src={secondImage.src}
                 alt={secondImage.alt}
               />
+              <p>{secondImage.caption}</p>
             </div>
             <div className="col-md-6">
-              <h2>{outcomes.title}</h2>
-              <p>{outcomes.content}</p>
-              <h2>{future.title}</h2>
-              <p>{future.content}</p>
+              <Eyebrow eyebrow="outcomes" heading={outcomes.title} />
+              <div dangerouslySetInnerHTML={{ __html: outcomes.content }} />
+              <Eyebrow eyebrow="future" heading={future.title} />
+              <div dangerouslySetInnerHTML={{ __html: future.content }} />
             </div>
           </div>
           {otherImages.map((image, i) => {
