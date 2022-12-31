@@ -36,7 +36,7 @@ export default function Work({
             <div className="col-md-6">
               <Eyebrow eyebrow="problem" heading={problem.title} />
               <div dangerouslySetInnerHTML={{ __html: problem.content }} />
-              <h2>{process.title}</h2>
+              <Eyebrow eyebrow="process" heading={process.title} />
               <div dangerouslySetInnerHTML={{ __html: process.content }} />
             </div>
             <div className="col-md-6">
